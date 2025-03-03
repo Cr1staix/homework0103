@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background: silver;
+}
+
+.content-list {
+    padding: 20px;
+    max-width: 600px;
+    padding-left: 20px;
+}
+
+.content-list .level-one {
+    list-style-type: upper-roman;
+}
+
+.content-list .level-two {
+    list-style-type: decimal;
+}
+
+.content-list .level-three {
+    list-style-type: lower-alpha;
+}
+
+.content-list .level-four {
+    list-style-type: lower-roman;
+}
+
+.content-list ul {
+    list-style-type: disc;
+}
+
+.content-list li {
+    color: blue;
+   
+}
+
+.content-list li::marker {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
